@@ -1,3 +1,1 @@
-echo "Java" >> tecnologias.txt
-echo "HTML" >> tecnologias.txt
-echo "CSS" >> tecnologias.txt
+
