@@ -1,1 +1,2 @@
-
+- Login e autenticação
+- Cadastro de usuários
