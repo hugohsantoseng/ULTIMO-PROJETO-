@@ -1,1 +1,15 @@
-
+git checkout main
+git pull origin main
+git checkout -b feature-tecnologias
+echo "Java" >> tecnologias.txt
+echo "AWS" >> tecnologias.txt
+echo "Kotlin" >> tecnologias.txt
+git add tecnologias.txt
+git commit -m "feat: Adiciona Java, AWS e Kotlin ao tecnologias.txt"
+echo "# Configuração do Ambiente" > config_ambiente.md
+echo "## Requisitos do Membro 3" >> config_ambiente.md
+git add config_ambiente.md
+git commit -m "docs: Cria arquivo config_ambiente.md"
+git add equipe.txt
+git commit -m "refactor: Altera linha em equipe.txt para criar o conflito"
+git push -u origin feature-tecnologias
