@@ -1,2 +1,3 @@
 - Login e autenticação
 - Cadastro de usuários
+- Sistema de recuperação de senha
